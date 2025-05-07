@@ -8,6 +8,9 @@ const Welcome = () => {
                     <h1>¡Bienvenido!</h1>
                     <p className="lead">Has llegado a la página de bienvenida.</p>
                 </div>
+                <div className='d-flex justify-content-center'>
+                    <button className='btn btn-danger'>Cerrar Sesion</button>
+                </div>
             </div>
         </div>
     );
